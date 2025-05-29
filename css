@@ -1,0 +1,52 @@
+body {
+   font-family: Calibri, sans-serif;
+   background-color: #f5f5f5;
+   padding:20px;
+   }
+   .container {
+   display:flex;
+   justify-content:center;
+   flex-wrap:wrap;
+   }
+  .produto {
+   background-color:white;
+   border:1px solid #ccc;
+   border-radius: 10px;
+   width:300px;
+   margin:15px;
+   padding:15px;
+   box-shadow:0 4px 8px rgba(0,0,0,0.1);
+   text-align:center;
+   }
+   .produto img {
+    width:70%;
+    border-radius:30px;
+    margin-bottom:10px;
+   }
+  .produto h3 {
+   margin-top: 10px 0 5px 0;
+   }
+  .produto p{
+   margin:0;
+   color:#333;
+   font-size: 18px;
+   }
+  .produto form {
+   margin-top:10px;
+   }
+  .produto button {
+   padding: 10px;
+   background-color: blue;
+   color:white;
+   border:none;
+   border-radius:5px;
+   cursor:pointer;
+   }
+   .produto button:hover {
+    background-color: navy;
+    }
+   .vendas-link {
+    display: block;
+    margin-bottom:20px;
+    font-size: 18px;
+    }
